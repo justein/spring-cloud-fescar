@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: account-service
+  datasource:
+    url: jdbc:mysql://47.104.174.83:3306/test
+    username: root
+    password: xiguahaha2018
+server:
+  port: 11111
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
