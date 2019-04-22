@@ -2,7 +2,7 @@ package com.alibaba.fescar.order.dto;
 
 
 /**
- * @author XCXCXCXCX
+ * @author Lyn
  * @since 1.0
  */
 public class AccountDTO{

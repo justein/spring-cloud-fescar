@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author XCXCXCXCX
+ * @author Lyn
  * @since 1.0
  */
 @RestController("business")
@@ -22,7 +22,7 @@ public class BusinessController {
     @PutMapping
     public ResponseEntity<?> insert(@RequestBody BusinessDTO businessDTO){
         businessService.purchase(businessDTO);
-        return ResponseEntity.ok(HttpEntity.EMPTY);
+        return ResponseEntity.ok("购买成功");
     }
 
 }

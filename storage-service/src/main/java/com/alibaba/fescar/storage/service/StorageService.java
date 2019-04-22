@@ -3,7 +3,7 @@ package com.alibaba.fescar.storage.service;
 import com.alibaba.fescar.storage.dto.StorageDTO;
 
 /**
- * @author XCXCXCXCX
+ * @author Lyn
  * @since 1.0
  */
 public interface StorageService {

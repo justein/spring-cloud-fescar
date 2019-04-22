@@ -21,7 +21,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * @author XCXCXCXCX
+ * @author Lyn
  * @since 1.0
  */
 @Configuration

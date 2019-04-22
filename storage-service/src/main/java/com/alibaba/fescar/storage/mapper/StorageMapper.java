@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Update;
 
 /**
- * @author XCXCXCXCX
+ * @author Lyn
  * @since 1.0
  */
 @Mapper

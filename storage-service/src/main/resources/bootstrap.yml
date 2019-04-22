@@ -2,8 +2,12 @@ spring:
   application:
     name: storage-service
   datasource:
-    url: jdbc:mysql://localhost:3306/fescar_demo
+    url: jdbc:mysql://47.104.174.83:3306/test
     username: root
-    password: admin
+    password: xiguahaha2018
 server:
   port: 11114
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false

@@ -1,7 +1,7 @@
 package com.alibaba.fescar.storage.po;
 
 /**
- * @author XCXCXCXCX
+ * @author Lyn
  * @since 1.0
  */
 public class Storage {

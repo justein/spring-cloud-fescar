@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.util.Collections;
 
 /**
- * @author XCXCXCXCX
+ * @author Lyn
  * @since 1.0
  */
 public class FescarRestInterceptor implements RequestInterceptor, ClientHttpRequestInterceptor{

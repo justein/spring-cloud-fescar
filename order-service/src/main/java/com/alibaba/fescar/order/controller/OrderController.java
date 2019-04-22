@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author XCXCXCXCX
+ * @author Lyn
  * @since 1.0
  */
 @RestController("/order")
@@ -22,7 +22,7 @@ public class OrderController {
     @PutMapping
     public ResponseEntity<?> insert(@RequestBody OrderDTO orderDTO){
         orderService.createOrder(orderDTO);
-        return ResponseEntity.ok(HttpEntity.EMPTY);
+        return ResponseEntity.ok("下单成功");
     }
 
 }

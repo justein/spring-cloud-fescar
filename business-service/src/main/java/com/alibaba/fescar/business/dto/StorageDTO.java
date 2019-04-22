@@ -1,7 +1,7 @@
 package com.alibaba.fescar.business.dto;
 
 /**
- * @author XCXCXCXCX
+ * @author Lyn
  * @since 1.0
  */
 public class StorageDTO{

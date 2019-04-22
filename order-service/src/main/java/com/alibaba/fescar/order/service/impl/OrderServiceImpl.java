@@ -13,7 +13,7 @@ import org.springframework.util.Assert;
 import java.util.Random;
 
 /**
- * @author XCXCXCXCX
+ * @author Lyn
  * @since 1.0
  */
 @Service

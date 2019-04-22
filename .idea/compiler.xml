@@ -22,4 +22,13 @@
       <module name="storage-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account-service" options="-parameters" />
+      <module name="business-service" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="spring-cloud-fescar-config" options="-parameters" />
+      <module name="storage-service" options="-parameters" />
+    </option>
+  </component>
 </project>

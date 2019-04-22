@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author XCXCXCXCX
+ * @author Lyn
  * @since 1.0
  */
 @RestController("/account")
@@ -22,7 +22,7 @@ public class AccountController {
     @PostMapping
     public ResponseEntity<?> update(@RequestBody AccountDTO accountDTO){
         accountService.updateAccount(accountDTO);
-        return ResponseEntity.ok(HttpEntity.EMPTY);
+        return ResponseEntity.ok("扣款成功");
     }
 
 }
